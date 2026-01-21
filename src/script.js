@@ -22,9 +22,9 @@ const calculateSimpleInterest = (principal, rate, time) => {
 }
 
 const calculateTotalPayableAmount = (principal, interest) => {
-    let TotalPayableAmount = principal - interest;
+    let totalPayableAmount = principal + interest;
 
-    return TotalPayableAmount;
+    return totalPayableAmount;
 }
 
 if (typeof module !== 'undefined')
